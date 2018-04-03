@@ -1,0 +1,84 @@
+﻿ @page
+@model GaleriaModel
+@{
+    ViewData["Title"] = "Galeria";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@Model.Message</h3>
+
+<style>
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+</style>
+
+<div class="gallery">
+  <a target="_blank" src="~/images/Boceto1.png">
+    <img src="~/images/Boceto1.png" alt="Trolltunga Norway" width="300" height="200">
+  </a>
+  <div class="desc">Yo y mis compañeros trabajando en nuestro primer proyecto en el ICD.</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="~/images/diagrama.jpg">
+    <img src="~/images/diagrama.jpg" alt="Forest" width="600" height="400">
+  </a>
+  <div class="desc">Mi primer diagrama de entidad relacional, 
+      lo diseñe con el propocito de crear una base de datos para el colmado de mi padre.  </div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="~/images/procedure.png">
+    <img src="~/images/procedure.png" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc">Codigo de uno de los procedures de mi base de datos.</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="~/images/Boceto.png">
+    <img src="~/images/Boceto.png" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Diagrama de entidad ralacional en el gestor Sql Server 2014.</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="~/images/programes.jpg">
+    <img src="~/images/programes.jpg" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Proyecto#2<hr>lenguage:Visual Basic<dr>
+      Tipo: aplicacion de escritorio <dr>
+      Desarrollado: Visual Studio + Sql server</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="~/images/recursoshumanos.png">
+    <img src="~/images/recursoshumanos.png" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Proyecto#3<hr>lenguage:C#
+   <dr>Tipo: aplicacion de escritorio 
+  <dr>Desarrollado: Visual Studio + Sql server</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="~/images/iniciodeseccion.png">
+    <img src="~/images/iniciodeseccion.png" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Proyecto#3</div>
+</div>
